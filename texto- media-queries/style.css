@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: antiquewhite;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.destaque p {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(2, 2, 85);
+}
+
+/* media queries */
+
+/* telas maiores */
+
+@media (max-width: 1200px) {
+    
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    p {
+        font-size: 0.95em;
+    }
+    
+    .destaque p {
+        font-size: 1.05em;
+    }
+}
+
+/* tablets e telas semelhantes */
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 1.6em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    p {
+        font-size: 0.9em;
+    }
+    
+    .destaque p {
+        font-size: 1em;
+    }
+}
+
+/* telas pequenas */
+
+@media (max-width: 767px) {
+    body {
+        margin: 10px;
+    }
+    
+    h1 {
+        font-size: 1.4em;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    p {
+        font-size: 0.85em;
+    }
+    
+    .destaque p {
+        font-size: 0.95em;
+    }
+}
