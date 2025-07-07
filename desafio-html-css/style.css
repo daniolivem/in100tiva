@@ -1,9 +1,12 @@
 .minha-div {
     background-color: lightblue;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .meu-paragrafo {
     color: darkblue;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 18px;
 }
 
