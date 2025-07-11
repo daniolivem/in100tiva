@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
+    background-color: #f4f4f9;
+}
+
+.botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: deeppink; 
+    background-image: linear-gradient(to right, #d40372, #ff1493, #fbd1e6, #ff1493, #d40372);
+    background-size: 300% auto;
+    background-position: left center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-position 0.5s ease-in-out, transform 0.2s ease;
+}
+
+.botao:hover {
+    background-position: right center; 
+    transform: scale(1.05);
+}
